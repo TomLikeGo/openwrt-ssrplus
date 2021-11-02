@@ -15,11 +15,11 @@ Here is just a set of files for me to log how an openwrt be built together with 
    ./scripts/feeds update -a && ./scripts/feeds install -a
    make menuconfig
    ```
-6. then just start to build 
+6. Then just start to build 
    ```
    make -j8
    ```
-7. if got a error that golang doesn't works to build v2ray-core or xray, and got the message.
+7. If got a error that golang doesn't works to build v2ray-core or xray, and got the message.
   
    build github.com/v2fly/v2ray-core/v4/main: cannot load io/fs: malformed module path "io/fs": missing dot in first path element
 
@@ -28,14 +28,14 @@ Here is just a set of files for me to log how an openwrt be built together with 
    ``` 
    feeds/packages/lang/golang/golang-version.mk
    ```
-  just put a version number in it. and another Makefile need to be update with new hash number
+  Just put a version number in it. and another Makefile need to be update with new hash number
   ```
   feeds/packages/lang/golang/golang/Makefile
   ```
-  buid it again
+  Buid it again
 
 8. If an error pops up said upx not found, just simply copy your upx in /usr/bin to the dir then rerun the make.
-it should be work!
+It should be work!
 
 Thank Lieno, https://github.com/Lienol/openwrt gives me hints to try this.
 
