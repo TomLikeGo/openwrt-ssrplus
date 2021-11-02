@@ -34,10 +34,10 @@ Here is just a set of files for me to log how an openwrt be built together with 
   ```
   buid it again
 
-8.if an error pops up said upx not found, just simply copy your upx in /usr/bin to the dir then rerun the make.
+8. If an error pops up said upx not found, just simply copy your upx in /usr/bin to the dir then rerun the make.
 it should be work!
 
-thank Lieno, https://github.com/Lienol/openwrt gives me hints to try this.
+Thank Lieno, https://github.com/Lienol/openwrt gives me hints to try this.
 
 <!---
 TomLikeGo/TomLikeGo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
