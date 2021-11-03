@@ -23,7 +23,7 @@ src-git small https://github.com/kenzok8/small
   
    build github.com/v2fly/v2ray-core/v4/main: cannot load io/fs: malformed module path "io/fs": missing dot in first path element
 
-   Here is a way to solve the issue. Just switch to a newer version of go. go v1.16.9 is which I used. You have to update the files 
+   A new version of openwrt v21.02.1 can void the issue, or try the way to solve it. Just switch to a newer version of go. go v1.16.9 is which I used. You have to update the files 
    
    ``` 
    feeds/packages/lang/golang/golang-version.mk
