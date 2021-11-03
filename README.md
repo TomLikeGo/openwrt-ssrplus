@@ -6,9 +6,9 @@ Here is just a set of files for me to log how an openwrt be built together with 
 
 3. v19.01.7 is checked out and the file of feeds.conf.default is changed in curent dir. Added following lines to end of the file.
 ```
-  src-git lienol https://github.com/Lienol/openwrt-package.git;main
-  src-git kenzo https://github.com/kenzok8/openwrt-packages
-  src-git small https://github.com/kenzok8/small
+src-git lienol https://github.com/Lienol/openwrt-package.git;main
+src-git kenzo https://github.com/kenzok8/openwrt-packages
+src-git small https://github.com/kenzok8/small
 ```
 5. Update and install all feeds, all comunite packages, and choose modules what u need. commands as following
    ```
